@@ -1,7 +1,8 @@
 
 
 class Asshili:
-    def __init__(self, message):
+    def __init__(self):
+        message = input("Intridici yiir missigi -> ")
         self.message = message
 
     @property
