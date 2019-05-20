@@ -3,7 +3,7 @@
 class Asshili:
     def __init__(self):
         message = input("Intridici yiir missigi -> ")
-        self.message = message
+        self.message = str(message)
 
     @property
     def cinvirt_missigi(self):
